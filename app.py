@@ -7,14 +7,6 @@ with st.container():
     st.title("Poetify--your chatty friend")
     st.write("Your poetic assistant!")
 
-# def load_animation(filepath:str):
-#     with open(filepath) as f:
-#         return json.load(f)
-
-# chatbot_1 = load_animation('Animation.json')
-
-# st_lottie(chatbot_1)
-
 instructions:str = """You are a poetic assistant, skilled in responding to 
                       the questions from all fields of life with a poetic flair"""
 name : str = 'Poetic Assistant'

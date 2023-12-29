@@ -1,0 +1,62 @@
+# if "chat_assistant" in st.session_state: 
+#     for m in st.session_state.chat_assistant.get_message_history():
+#         with st.chat_message(m.role):
+#             st.markdown(m.content)
+
+  #st.session_state.messages.append({"role":"user","content":prompt})
+
+ #st.session_state.messages.append({"role":"assistant","content":response})
+
+ #from openai.types.chat.chat_completion import ChatCompletion
+         # with st.chat_message("assistant"):
+            
+            # answer_placeholder.markdown(response)
+        # else:
+            # answer_placeholder.markdown('...')
+            # #st.markdown("Searching for your answer")
+
+ # answer_placeholder = st.empty()
+        # full_response = "..."
+
+
+# def load_animation(filepath:str):
+#     with open(filepath) as f:
+#         return json.load(f)
+
+# chatbot_1 = load_animation('Animation.json')
+
+# st_lottie(chatbot_1)
+
+    #s.execute('DELETE FROM chat_history;')
+    #chat_history = {}
+    # for k in chat_history:
+    #     s.execute(
+    #         'INSERT INTO chat_history (role, content) VALUES (:role, :content);',
+    #         params=dict(role=k, content=chat_history[k])
+    #     )
+    #s.commit()
+
+#st.dataframe(chat_history)
+
+# for m in convo:
+#      with st.chat_message(m(["role"])):
+#           st.markdown(m(["content"]))
+
+
+#This is where you are trying to print the type of the data
+#st.markdown(f"Note that `s` is a `{type(s)}`")
+
+    # add_radio = st.radio(
+    #     "Choose a shipping method",
+    #     ("Standard (5-15 days)", "Express (2-5 days)")
+    # )
+# rows
+# cols
+#This is where the previous conversation is printed
+# Using object notation
+# add_selectbox = st.sidebar.selectbox(
+#     "How would you like to be contacted?",
+#     ("Email", "Home phone", "Mobile phone")
+# )
+
+# Using "with" notation

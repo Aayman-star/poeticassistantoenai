@@ -70,8 +70,11 @@ class ChatAssistant:
         return True
         
         
-        
-        
+    """
+    #Returning the thread id
+    """
+    def get_thread_id(self):
+          return self.thread.id
     """
     #This function will get the answer to the current question
     """
